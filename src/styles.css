@@ -1,0 +1,97 @@
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  li button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  li button:hover {
+    background-color: #d9534f;
+  }
+  
+  form input[type="text"] {
+    width: 70%;
+    padding: 6px;
+    margin-right: 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  form button {
+    padding: 6px 12px;
+    background-color: #5bc0de;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #31b0d5;
+  }
+
+button.incrementar,
+button.decrementar {
+  padding: 10px 20px;
+  background-color: #5bc0de;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button.incrementar:hover,
+button.decrementar:hover {
+  background-color: #31b0d5;
+}
+
+/* Estilos para os botões Incrementar e Decrementar */
+.increment-button,
+.decrement-button {
+    background-color: #5bc0de;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.increment-button:hover,
+.decrement-button:hover {
+    background-color: #31b0d5;
+}
+
